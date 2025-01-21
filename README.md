@@ -65,42 +65,42 @@ The dataset used for this project is sourced from Kaggle: [Predicting Manufactur
 
 5. API Interaction with Postman:
    
-  **Upload the Dataset**
+  ### 1. **Upload the Dataset**
   
-  -Send a POST request to: http://0.0.0.0:8000/upload
-  -In Postman, go to the Body tab and select form-data.
-  -Set the key to file, input type to File, and upload the dataset as the value.
-  -Send the request. It should return:
-  {
-    "message": "Dataset uploaded successfully"
-  }
+    -Send a POST request to: http://0.0.0.0:8000/upload
+    -In Postman, go to the Body tab and select form-data.
+    -Set the key to file, input type to File, and upload the dataset as the value.
+    -Send the request. It should return:
+    {
+      "message": "Dataset uploaded successfully"
+    }
 
-  **Train the Model**
+  ### 1. **Train the Model**
   
-  -Send a POST request to: http://0.0.0.0:8000/train
-  -In Postman, go to the Body tab and select none.
-  -Send the request. It should return:
-  {
-    "Message": "Model Trained Successfully",
-    "F2_Score": 0.9874629553566372
-  }
+    -Send a POST request to: http://0.0.0.0:8000/train
+    -In Postman, go to the Body tab and select none.
+    -Send the request. It should return:
+    {
+      "Message": "Model Trained Successfully",
+      "F2_Score": 0.9874629553566372
+    }
 
-  **Test the Model Predictions**
+  ### 1. **Test the Model Predictions**
   
-  -Send a POST request to: http://0.0.0.0:8000/predict
-  -In Postman, go to the Headers tab and set the key to Content-Type and value to application/json.
-  -In the Body tab, select raw and enter the input data in the form of JSON:
-  {
-    "QualityScore": 63.46,
-    "DefectRate": 3.12,
-    "ProductionVolume": 202,
-    "MaintenanceHours": 9
-  }
-  -Send the request. It should return:
-  {
-  "Defect Status": "High",
-  "Confidence": "96.94%"
-  }
+    -Send a POST request to: http://0.0.0.0:8000/predict
+    -In Postman, go to the Headers tab and set the key to Content-Type and value to application/json.
+    -In the Body tab, select raw and enter the input data in the form of JSON:
+    {
+      "QualityScore": 63.46,
+      "DefectRate": 3.12,
+      "ProductionVolume": 202,
+      "MaintenanceHours": 9
+    }
+    -Send the request. It should return:
+    {
+    "Defect Status": "High",
+    "Confidence": "96.94%"
+    }
 
 
 
