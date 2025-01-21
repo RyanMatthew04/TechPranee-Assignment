@@ -74,6 +74,7 @@ The dataset used for this project is sourced from Kaggle: [Predicting Manufactur
         {
           "message": "Dataset uploaded successfully"
         }
+     ![Upload](upload.png)
     
       #### b. **Train the Model**
       
