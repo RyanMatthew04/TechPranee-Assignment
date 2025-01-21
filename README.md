@@ -63,9 +63,9 @@ The dataset used for this project is sourced from Kaggle: [Predicting Manufactur
    ```bash
    python api.py
 
-#### **API Interaction with Postman:**
+5. API Interaction with Postman:
    
-  ### 1. **Upload the Dataset**
+  # 1. **Upload the Dataset**
   
     -Send a POST request to: http://0.0.0.0:8000/upload
     -In Postman, go to the Body tab and select form-data.
@@ -75,7 +75,7 @@ The dataset used for this project is sourced from Kaggle: [Predicting Manufactur
       "message": "Dataset uploaded successfully"
     }
 
-  ### 2. **Train the Model**
+  # 2. **Train the Model**
   
     -Send a POST request to: http://0.0.0.0:8000/train
     -In Postman, go to the Body tab and select none.
@@ -85,7 +85,7 @@ The dataset used for this project is sourced from Kaggle: [Predicting Manufactur
       "F2_Score": 0.9874629553566372
     }
 
-  ### 3. **Test the Model Predictions**
+  # 3. **Test the Model Predictions**
   
     -Send a POST request to: http://0.0.0.0:8000/predict
     -In Postman, go to the Headers tab and set the key to Content-Type and value to application/json.
