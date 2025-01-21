@@ -74,7 +74,7 @@ The dataset used for this project is sourced from Kaggle: [Predicting Manufactur
         {
           "message": "Dataset uploaded successfully"
         }
-     ![Upload](upload.png)
+     ![Upload](/Artifacts/images/upload.png)
     
       #### b. **Train the Model**
       
@@ -85,7 +85,7 @@ The dataset used for this project is sourced from Kaggle: [Predicting Manufactur
           "Message": "Model Trained Successfully",
           "F2_Score": 0.9874629553566372
         }
-     ![Train](train.png)
+     ![Train](/Artifacts/images/train.png)
     
       #### c. **Test the Model Predictions**
       
@@ -103,7 +103,7 @@ The dataset used for this project is sourced from Kaggle: [Predicting Manufactur
         "Defect Status": "High",
         "Confidence": "96.94%"
         }
-     ![Predict](predict.png)
+     ![Predict](/Artifacts/images/predict.png)
 
 
 
