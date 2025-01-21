@@ -16,7 +16,7 @@ The dataset used for this project is sourced from Kaggle: [Predicting Manufactur
 
 ---
 
-## Thought Process
+## Key Steps
 
 ### 1. **Exploratory Data Analysis (EDA)**  
    - Performed EDA using the **`ydata_profiling`** library to gain insights into the dataset, including feature distributions, missing values, correlations, and other patterns.  
