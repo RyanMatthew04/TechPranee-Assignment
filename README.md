@@ -48,12 +48,12 @@ The dataset used for this project is sourced from Kaggle: [Predicting Manufactur
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/username/predictive-manufacturing-analysis.git
+   git clone https://github.com/RyanMatthew04/TechPranee-Assignment.git
 
 2. Create a new environment with Python 3.9.21:
    ```bash
-   conda create -n manufacturing-env python=3.9.21
-   conda activate manufacturing-env
+   conda create -n venv python=3.9.21
+   conda activate venv
 
 3. Install the dependencies:
    ```bash
