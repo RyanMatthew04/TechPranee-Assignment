@@ -19,10 +19,12 @@ MODEL_PATH = "../Artifacts/model/dt.pkl"
 async def upload_file(file: UploadFile = File(...)):
     global df
     try:
+        
         df = pd.read_csv(file.file)
         if not {'QualityScore','DefectRate','ProductionVolume','MaintenanceHours','DefectStatus'}.issubset(df.columns):
             raise HTTPException(status_code=400, detail="Dataset must contain QualityScore, DefectRate, ProductionVolume, MaintenanceHours, DefectStatus")
         return {"message": "Dataset uploaded successfully"}
+    
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error processing file: {str(e)}")
 
