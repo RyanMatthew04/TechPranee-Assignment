@@ -38,8 +38,8 @@ The dataset used for this project is sourced from Kaggle: [Predicting Manufactur
 
 ## Key Results
 
-- Model selection and hyperparameter tuning using F2 score optimization.  
-- Feature importance-driven feature selection ensured a focused and efficient training process.  
+- Feature importance-driven feature selection ensured a focused and efficient training process.
+- Model selection and hyperparameter tuning using F2 score optimization.    
 - Final model achieved an optimal balance between recall and precision, addressing the business problem effectively.
 
 ---
